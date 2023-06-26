@@ -11,7 +11,7 @@ const tipos = ['C','D','H','S'];
 const especiales = ['A','J','Q','K'];
 
 let puntosJugador = 0;
-    puntosComputadora = 0;
+let puntosComputadora = 0;
 
 //referencias del HTML
 const btnPedir = document.querySelector('#btnPedir');
@@ -96,7 +96,7 @@ const turnoComputadora = (puntosMinimos) => {
         } else{
             alert('Computadora Gana!')
         }
-    }, 10 );
+    }, 20 );
 }
 
 //eventos
